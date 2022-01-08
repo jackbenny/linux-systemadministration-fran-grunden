@@ -1,0 +1,6 @@
+[Unit]
+Description=Vår egna tjänst
+[Service]
+ExecStart=/usr/sbin/dummy.sh
+[Install]
+WantedBy=multi-user.target
